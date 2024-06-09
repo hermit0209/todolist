@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(238,174,202);
+  background: linear-gradient(151deg, darkslategray 0%, white 100%);
+  color: darkslategray;
+}
+
+#root {
+  max-width: 960px;
+  width: max(75%, 270px);
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.3)
+}
+
+article{
+  padding: 1rem;
+}
+
+ul{
+  padding: 0;
+  list-style-type: none;
+}
